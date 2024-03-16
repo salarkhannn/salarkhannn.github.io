@@ -16,7 +16,7 @@
             <header class="header-container">
                 <a href="home.html">
                     <img src="assets/logo.png" class="logo">            
-                </a>          
+                </a>
                 <p class="header-left">
                     Artist-Designer
                 </p>
@@ -26,29 +26,46 @@
                     <li><a class="links" href="about.html">About</a></li>
                     <li><a class="links" href="contact.html">Contact</a></li>
                 </ul>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="dropdown-menu" id="dropdownMenu">
+                    <li><a class="drop-links" href="home.html">Home</a></li>
+                    <li><a class="drop-links" href="clothes.html">Clothes</a></li>
+                    <li><a class="drop-links" href="about.html">About</a></li>
+                    <li><a class="drop-links" href="contact.html">Contact</a></li>
+                </ul>
             </header>
         </div>
         <div class="gallery-container">
-            <div class="clothes-col">
-                <div class="clothes">
-                    <img src="clothes/Walnut shirt mokup png.png">
-                    <img src="clothes/Dua Lipa.png">
-                    <img src="clothes/Greek Statue 2 mockup.png">
-                    <img src="clothes/Greek Statue mockup.png">
-                    <img src="clothes/Hard mp4 mockup.png">
+            <div class="poster-col">
+                <div class="posters">
+                    <img src="posters/Adidas Samba Poster.jpg">
+                    <img src="posters/A melody of tragedy.jpg">
+                    <img src="posters/David Poster.jpg">
+                    <img src="posters/dead poets society poster.jpg">
+                    <img src="posters/eyes poster.jpg">
+                    <img src="posters/fallen angels poster.jpg">
+                    <img src="posters/ferrari f40 poster.jpg">
                 </div>
-                <div class="clothes">
-                    <img src="clothes/Kromosome Hoodie mockup.png">
-                    <img src="clothes/Whiplash mockup.png">
-                    <img src="clothes/How long will it last mockup.png">
-                    <img src="clothes/Porsche gt3 rs mockup 2.png">
-                    <img src="clothes/Fallen Angels 2 mockup.png">
+                <div class="posters">
+                    <img src="posters/Converse poster.jpg">
+                    <img src="posters/Whiplash Poster.jpg">
+                    <img src="posters/Good Will Hunting Poster.jpg">
+                    <img src="posters/Iphone 15 poster.jpg">
+                    <img src="posters/Lewis to Ferrari poster.jpg">
+                    <img src="posters/Muhammad Ali poster.jpg">
+                    <img src="posters/Painting Poster purple.jpg">
                 </div>
-                <div class="clothes">
-                    <img src="clothes/Skeleton Hoodie mockup.png">
-                    <img src="clothes/Porsche gt3 rs mockup.png">
-                    <img src="clothes/Porsche mockup.png">
-                    <img src="clothes/Fallen Angels 1 mockup.png">
+                <div class="posters">
+                    <img src="posters/Painting Poster Red.jpg">
+                    <img src="posters/Painting Poster.jpg">
+                    <img src="posters/porsche poster.jpg">
+                    <img src="posters/Sylvia Plath Poster.jpg">
+                    <img src="posters/The girl with a pearl earing final.jpg">
+                    <img src="posters/Francis poster.jpg">
                 </div>
             </div>
         </div>
@@ -76,5 +93,14 @@
               </footer>           
         </div>
     </div>
+    <script>
+        var hamburgerMenu = document.querySelector(".hamburger-menu");
+        hamburgerMenu.addEventListener("click", toggleMenu);
+      
+        function toggleMenu() {
+          var dropdownMenu = document.getElementById("dropdownMenu");
+          dropdownMenu.classList.toggle("show");
+        }
+      </script>      
 </body>
 </html>
