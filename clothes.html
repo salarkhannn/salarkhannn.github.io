@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">  
-    <title>Document</title>
+    <title>Salar Khan Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 <body>
     <div class="container">
@@ -51,7 +52,29 @@
                 </div>
             </div>
         </div>
-
+        <div class="footer-div">
+            <footer>
+                <div class="footer-container">
+                  <div class="contact-info">
+                    <h2>Contact</h2>
+                    <p>Email Inquiries: salarkhanlala@gmail.com</p>
+                    <a href="https://www.instagram.com/salarkhhaan">
+                        <img src="assets/insta-logo.png" class="link-logo">            
+                    </a>
+                  </div>
+                  <div class="company-info">
+                    <h2>Hit me up!</h2>
+                    <form action="send_message.php" method="post">
+                        <div class="input-container">
+                          <input type="email" name="email" id="email" placeholder="Your Email" required>
+                          <textarea class="message-box" name="message" id="message" placeholder="Send a message" required></textarea>
+                        </div>
+                        <button type="submit" name="submit" class="send-button">Send Message</button>
+                      </form>
+                  </div>
+                </div>
+              </footer>           
+        </div>
     </div>
 </body>
 </html>
