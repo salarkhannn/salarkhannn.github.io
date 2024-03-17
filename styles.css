@@ -88,6 +88,7 @@ a:hover{
 }
 
 .dropdown-menu{
+    background-color: #003366;
     display: none;
     font-family: 'Kameron';
     font-size: 20px;
@@ -95,6 +96,7 @@ a:hover{
     margin-left: 15px;
     margin-top: 15px;
     list-style: none;
+    z-index: 2;
 }
 
 .drop-links{
@@ -212,7 +214,7 @@ a:hover{
     font-family: 'Kameron';
     color: #222222;
     font-weight: 700;
-    text-align: justify;
+    text-align: center;
 }
 
 .footer {
@@ -224,7 +226,7 @@ a:hover{
   
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .contact-info,
@@ -284,4 +286,10 @@ a:hover{
 .link-logo{
     margin-top: 50px;
     width: 30px;
+}
+
+.about-me{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
 }
